@@ -1,8 +1,15 @@
 import React from "react";
-import { Header, HeaderLink, HeaderLinkContainer } from "./header.style";
+import {
+  Header,
+  HeaderLink,
+  HeaderLinkContainer,
+  HomeContainer
+} from "./header.style";
 export default () => (
   <Header>
-    <div style={{ width: "70px" }}></div>
+    <HomeContainer>      
+        <HeaderLink to="/">Home</HeaderLink>
+    </HomeContainer>
     <HeaderLinkContainer>
       <HeaderLink to="education">Educations</HeaderLink>
       <HeaderLink to="skills">Skills</HeaderLink>

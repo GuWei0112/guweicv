@@ -1,19 +1,19 @@
 .App{
-  background-color: #E4F9F5;
+  background-color: #fff;
 }
 
 h1{
   margin: 0 auto;
   font-size: 5.265rem;
   font-family: 'Sacramento', cursive;
-  color:#66BFBF;
-  background-color: #E4F9F8;
+  color:black;
+  background-color: #fff;
 }
 
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
-  color:#66BFBF;
+  color:black;
   font-weight: normal;
 }
 
@@ -23,7 +23,10 @@ h3{
 }
 
 a{
-  color:#11999E;
+  color:black;
   font-family: 'Montserrat', sans-serif;
-  text-decoration:none;
+  text-decoration:none;  
+}
+a:hover{
+  text-decoration:none; 
 }

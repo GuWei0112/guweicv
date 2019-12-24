@@ -1,3 +1,7 @@
 import React from "react";
-
-export default () => <div>Education</div>;
+import EducationList from "../../components/educationList/educationList.components";
+export default () => (
+  <div>
+    <EducationList />
+  </div>
+);

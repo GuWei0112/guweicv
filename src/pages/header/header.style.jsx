@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 export const Header = styled.div`
-  background-color: #66bfbf;
+  padding: 20px;
+  background-color: #fff;
   height: 70px;
   width: 100%;
   display: flex;
@@ -17,12 +18,19 @@ export const HeaderLinkContainer = styled.div`
   justify-content: flex-end;
 `;
 
+export const HomeContainer = styled.div`
+  width: 70px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+`;
+
 export const HeaderLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
-  border-bottom: 10px yellow;
   :hover {
-    color: #eaf6f6;
-    border-bottom: 1px solid black;
+    color: #66bfbf;
+    border-bottom: 2px solid #66bfbf;
   }
 `;
