@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/guweicv/static/css/main.36ba8075.chunk.css",
-    "main.js": "/guweicv/static/js/main.8643cdee.chunk.js",
-    "main.js.map": "/guweicv/static/js/main.8643cdee.chunk.js.map",
+    "main.js": "/guweicv/static/js/main.e950674d.chunk.js",
+    "main.js.map": "/guweicv/static/js/main.e950674d.chunk.js.map",
     "runtime-main.js": "/guweicv/static/js/runtime-main.efbf841d.js",
     "runtime-main.js.map": "/guweicv/static/js/runtime-main.efbf841d.js.map",
     "static/js/2.49e84bf8.chunk.js": "/guweicv/static/js/2.49e84bf8.chunk.js",
     "static/js/2.49e84bf8.chunk.js.map": "/guweicv/static/js/2.49e84bf8.chunk.js.map",
     "index.html": "/guweicv/index.html",
-    "precache-manifest.c33d762bb5053f3ced4c674fa0f3618b.js": "/guweicv/precache-manifest.c33d762bb5053f3ced4c674fa0f3618b.js",
+    "precache-manifest.a102817e5c21612145135569b6f55a5e.js": "/guweicv/precache-manifest.a102817e5c21612145135569b6f55a5e.js",
     "service-worker.js": "/guweicv/service-worker.js",
     "static/css/main.36ba8075.chunk.css.map": "/guweicv/static/css/main.36ba8075.chunk.css.map",
     "static/js/2.49e84bf8.chunk.js.LICENSE": "/guweicv/static/js/2.49e84bf8.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.efbf841d.js",
     "static/js/2.49e84bf8.chunk.js",
     "static/css/main.36ba8075.chunk.css",
-    "static/js/main.8643cdee.chunk.js"
+    "static/js/main.e950674d.chunk.js"
   ]
 }
