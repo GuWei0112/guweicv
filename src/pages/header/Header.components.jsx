@@ -13,7 +13,7 @@ export default () => (
     <HeaderLinkContainer>
       <HeaderLink to="education">Educations</HeaderLink>
       <HeaderLink to="skills">Skills</HeaderLink>
-      <HeaderLink to="contact">Contact</HeaderLink>
+      <HeaderLink to="about">About</HeaderLink>
     </HeaderLinkContainer>
   </Header>
 );

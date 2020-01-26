@@ -1,32 +1,38 @@
-.App{
+.App {
   background-color: #fff;
 }
 
-h1{
+h1 {
   margin: 0 auto;
-  font-size: 5.265rem;
-  font-family: 'Sacramento', cursive;
-  color:black;
+  padding: 15px;
+  font-size: 4rem;
+  font-family: "Sacramento", cursive;
+  color: black;
   background-color: #fff;
 }
 
-h2{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  color:black;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: black;
   font-weight: normal;
 }
 
-h3{
-  font-family: 'Montserrat', sans-serif;
-  color:#11999E;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #272727;
+  font-size: 1rem;
 }
 
-a{
-  color:black;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration:none;  
+a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
-a:hover{
-  text-decoration:none; 
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  width: 25%;
 }

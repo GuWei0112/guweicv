@@ -6,12 +6,12 @@ from {
 }
 
 to {
-  color: #0000ff;
+  color: white;
 }
 `;
 
 export const Stars = styled.i`
   color: ${props => (props.fill === "true" ? "yellow" : "#fff")};
-  background-color: black;
-  animation: ${fillIn} 2s linear;
+  //background-color: black;
+  animation: ${fillIn} linear;
 `;

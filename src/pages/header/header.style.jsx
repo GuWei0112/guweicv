@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 export const Header = styled.div`
-  padding: 20px;
+  padding: 30px 70px; 
   background-color: #fff;
   height: 70px;
   width: 100%;

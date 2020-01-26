@@ -7,8 +7,13 @@ export default ({ title, skills }) => {
       <h3>{title}</h3>
       <div>
         {skills &&
-          skills.map(({ toolName, stars, id }) => (
-            <SkillItem toolName={toolName} stars={stars} key={id} />
+          skills.map(({ toolName, stars, id, value }) => (
+            <SkillItem
+              toolName={toolName}
+              stars={stars}
+              key={id}
+              value={value}
+            />
           ))}
       </div>
     </SkillList>
