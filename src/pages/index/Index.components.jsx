@@ -1,24 +1,50 @@
 import React from "react";
-
 export default () => {
   return (
-    <div id="testimonial-carousel" className="carousel slide" data-ride="false">
-      <div className="carousel-inner">
-        <div className="carousel-item active container-fluid">
-          <h2 className="testimonial-text">333</h2>
-          <em>Pebbles, New York</em>
+    <div className="container">
+      <div
+        id="testimonial-carousel"
+        className="carousel slide"
+        data-ride="carousel"
+        style={{ backgroundColor: "#a9b3c3", height: "300px", top: "100px",borderRadius:'10px' }}
+      >
+        <div className="carousel-inner" style={{ top: '120px'}}>
+          <div className="carousel-item active container-fluid">
+            <h2 className="testimonial-text">
+              <a href="/proj">Project</a>
+            </h2>
+            {/*<img className="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"/>*/}
+          </div>
+          <div className="carousel-item container-fluid">
+            <h2 className="testimonial-text">
+              <a href="/skills">Skills</a>
+            </h2>
+            {/*<img className="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"/>*/}
+          </div>
+          <div className="carousel-item container-fluid">
+            <h2 className="testimonial-text">
+              <a href="/about">About</a>
+            </h2>
+            {/*<img className="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"/>*/}
+          </div>
         </div>
-        <div className="carousel-item container-fluid">
-          <h2 className="testimonial-text">2</h2>
-          <em>Beverly, Illinois</em>
-        </div>
+        <a
+          className="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span className="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          className="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span className="carousel-control-next-icon" aria-hidden="false"></span>
+        </a>
       </div>
-      <a className="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-    <span className="carousel-control-prev-icon">111</span>
-      </a>
-      <a className="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-    <span className="carousel-control-next-icon">22</span>
-      </a>
     </div>
   );
 };

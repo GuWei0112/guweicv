@@ -5,7 +5,7 @@ import Footer from "./pages/footer/Footer.components";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import SkillPage from "./pages/skill/Skill.components";
 import AboutPage from "./pages/about/About.components";
-import EducationPage from "./pages/education/Education.components";
+import ProjPage from './pages/proj/Project.components'
 import IndexPage from "./pages/index/Index.components";
 function App() { 
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/" component={IndexPage} />
         <Route exact path="/skills" component={SkillPage} />
         <Route exact path="/about" component={AboutPage} />
-        <Route exact path="/education" component={EducationPage} />
+        <Route exact path="/proj" component={ProjPage} />
       </Switch>
     </BrowserRouter>
   );

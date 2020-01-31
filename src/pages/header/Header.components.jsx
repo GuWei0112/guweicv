@@ -7,11 +7,11 @@ import {
 } from "./header.style";
 export default () => (
   <Header>
-    <HomeContainer>      
-        <HeaderLink to="/">Home</HeaderLink>
+    <HomeContainer>
+      <HeaderLink to="/">Home</HeaderLink>
     </HomeContainer>
     <HeaderLinkContainer>
-      <HeaderLink to="education">Educations</HeaderLink>
+      <HeaderLink to="proj">Projects</HeaderLink>
       <HeaderLink to="skills">Skills</HeaderLink>
       <HeaderLink to="about">About</HeaderLink>
     </HeaderLinkContainer>
