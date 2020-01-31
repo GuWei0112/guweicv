@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "406942dec617e6627e096ddf99d725b2",
+    "revision": "537e73c2b0875d7b64f6ea4bb427ef35",
     "url": "/guweicv/index.html"
   },
   {
-    "revision": "5da5ed10d12d5b74ad80",
+    "revision": "2944fc5c1bd8e1cb2eb2",
     "url": "/guweicv/static/css/main.830758b6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/guweicv/static/js/2.38cf875b.chunk.js.LICENSE"
   },
   {
-    "revision": "5da5ed10d12d5b74ad80",
-    "url": "/guweicv/static/js/main.d9557b35.chunk.js"
+    "revision": "2944fc5c1bd8e1cb2eb2",
+    "url": "/guweicv/static/js/main.8ddcd909.chunk.js"
   },
   {
     "revision": "3a194f22e43552d829c6",
