@@ -8,7 +8,7 @@ export default () => {
         className="carousel slide"
         data-ride="carousel"
         style={{
-          backgroundColor: "#a9b3c3",
+          backgroundColor: "rgba(190,191,194,0.7)",
           height: "300px",
           top: "100px",
           borderRadius: "10px"
