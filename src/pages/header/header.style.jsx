@@ -27,10 +27,5 @@ export const HomeContainer = styled.div`
 `;
 
 export const HeaderLink = styled(Link)`
-  padding: 10px 15px;
-  cursor: pointer;
-  :hover {
-    color: #66bfbf;
-    border-bottom: 2px solid #66bfbf;
-  }
+
 `;

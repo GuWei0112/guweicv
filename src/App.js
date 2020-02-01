@@ -17,10 +17,10 @@ function App() {
         <Footer />
       </div>
       <Switch>
-        <Route exact path="/" component={IndexPage} />
-        <Route exact path="/skills" component={SkillPage} />
-        <Route exact path="/about" component={AboutPage} />
-        <Route exact path="/proj" component={ProjPage} />
+        <Route exact path="/guweicv/" component={IndexPage} />
+        <Route exact path="/guweicv/skills" component={SkillPage} />
+        <Route exact path="/guweicv/about" component={AboutPage} />
+        <Route exact path="/guweicv/proj" component={ProjPage} />
       </Switch>
     </BrowserRouter>
   );

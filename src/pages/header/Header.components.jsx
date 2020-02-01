@@ -8,12 +8,12 @@ import {
 export default () => (
   <Header>
     <HomeContainer>
-      <HeaderLink to="/">Home</HeaderLink>
+      <HeaderLink to="/guweicv/">Home</HeaderLink>
     </HomeContainer>
     <HeaderLinkContainer>
-      <HeaderLink to="proj">Projects</HeaderLink>
-      <HeaderLink to="skills">Skills</HeaderLink>
-      <HeaderLink to="about">About</HeaderLink>
+      <HeaderLink to="/guweicv/proj">Projects</HeaderLink>
+      <HeaderLink to="/guweicv/skills">Skills</HeaderLink>
+      <HeaderLink to="/guweicv/about">About</HeaderLink>
     </HeaderLinkContainer>
   </Header>
 );

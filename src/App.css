@@ -28,9 +28,13 @@ a {
   color: black;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
+  padding: 10px 15px;
+  cursor: pointer;
 }
 a:hover {
   text-decoration: none;
+  color: #66bfbf;
+  border-bottom: 2px solid #66bfbf;
 }
 
 hr {
