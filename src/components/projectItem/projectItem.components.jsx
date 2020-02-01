@@ -10,9 +10,9 @@ export default ({ title, url }) => (
         borderRadius: "10px"
       }}
     >
-      <div className="carousel-inner" style={{ top: "70px" }}>
+      <div className="carousel-inner" style={{ top: "80px" }}>
         <div className="container-fluid">
-          <h2>
+          <h2 style={{fontSize:'35px'}}>
             <a href={url}>{title}</a>
           </h2>
           {/*<img className="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"/>*/}

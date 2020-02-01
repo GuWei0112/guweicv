@@ -6,10 +6,11 @@ export default ({ about }) => {
   let introA = intro.split("/");
   return (
     <AboutContainer>
-      <AboutList style={{padding:'0px 10px'}}>
+      <AboutList style={{ padding: "0px 10px" }}>
         <h3>就讀學校</h3>
         <EducationPage />
       </AboutList>
+      <hr />
       <AboutList>
         <h3>工作經歷</h3>
       </AboutList>
@@ -25,6 +26,7 @@ export default ({ about }) => {
           ))}
         </tbody>
       </table>
+      <hr />
       <AboutList>
         <h3>自我介紹</h3>
       </AboutList>
