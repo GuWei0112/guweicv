@@ -11,19 +11,19 @@ export default () => {
         <div className="carousel-inner" style={{ top: '120px'}}>
           <div className="carousel-item active container-fluid">
             <h2 className="testimonial-text">
-              <a href="/proj">Project</a>
+              <a href="/guweicv/proj">Project</a>
             </h2>
             {/*<img className="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"/>*/}
           </div>
           <div className="carousel-item container-fluid">
             <h2 className="testimonial-text">
-              <a href="/skills">Skills</a>
+              <a href="/guweicv/skills">Skills</a>
             </h2>
             {/*<img className="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"/>*/}
           </div>
           <div className="carousel-item container-fluid">
             <h2 className="testimonial-text">
-              <a href="/about">About</a>
+              <a href="/guweicv/about">About</a>
             </h2>
             {/*<img className="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"/>*/}
           </div>
