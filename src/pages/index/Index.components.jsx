@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 export default () => {
   return (
     <div className="container">
@@ -6,24 +7,29 @@ export default () => {
         id="testimonial-carousel"
         className="carousel slide"
         data-ride="carousel"
-        style={{ backgroundColor: "#a9b3c3", height: "300px", top: "100px",borderRadius:'10px' }}
+        style={{
+          backgroundColor: "#a9b3c3",
+          height: "300px",
+          top: "100px",
+          borderRadius: "10px"
+        }}
       >
-        <div className="carousel-inner" style={{ top: '120px'}}>
+        <div className="carousel-inner" style={{ top: "120px" }}>
           <div className="carousel-item active container-fluid">
             <h2 className="testimonial-text">
-              <a href="/guweicv/proj">Project</a>
+              <Link to="/guweicv/proj">Project</Link>
             </h2>
             {/*<img className="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"/>*/}
           </div>
           <div className="carousel-item container-fluid">
             <h2 className="testimonial-text">
-              <a href="/guweicv/skills">Skills</a>
+              <Link to="/guweicv/skills">Skills</Link>
             </h2>
             {/*<img className="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"/>*/}
           </div>
           <div className="carousel-item container-fluid">
             <h2 className="testimonial-text">
-              <a href="/guweicv/about">About</a>
+              <Link to="/guweicv/about">About</Link>
             </h2>
             {/*<img className="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"/>*/}
           </div>
@@ -42,7 +48,10 @@ export default () => {
           role="button"
           data-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="false"></span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="false"
+          ></span>
         </a>
       </div>
     </div>
