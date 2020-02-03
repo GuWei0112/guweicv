@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3e3a04c811cda6529325d9f6e27a13f",
+    "revision": "103c0ab2cc5802d57f272355600dd93e",
     "url": "/guweicv/index.html"
   },
   {
-    "revision": "1d8949fc4f53beec08d8",
-    "url": "/guweicv/static/css/main.54bed766.chunk.css"
+    "revision": "9eea8f9ecf59b56a5fd8",
+    "url": "/guweicv/static/css/main.c7772553.chunk.css"
   },
   {
     "revision": "127ae51d82723f6b70cf",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/guweicv/static/js/2.cb1755c5.chunk.js.LICENSE"
   },
   {
-    "revision": "1d8949fc4f53beec08d8",
-    "url": "/guweicv/static/js/main.c6db37ea.chunk.js"
+    "revision": "9eea8f9ecf59b56a5fd8",
+    "url": "/guweicv/static/js/main.33031378.chunk.js"
   },
   {
     "revision": "3a194f22e43552d829c6",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/guweicv/static/media/palette.e2c333f2.gif"
   },
   {
-    "revision": "7e3eb7c6890be283264a997203fdadf5",
-    "url": "/guweicv/static/media/todolist.7e3eb7c6.gif"
+    "revision": "e16149077fbc6845c705d0ea5d4e2803",
+    "url": "/guweicv/static/media/todolist.e1614907.gif"
   }
 ]);
