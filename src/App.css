@@ -31,6 +31,7 @@ a {
   padding: 10px 15px;
   cursor: pointer;
 }
+
 a:hover {
   text-decoration: none;
   color: #66bfbf;
@@ -39,4 +40,17 @@ a:hover {
 
 hr {
   width: 25%;
+}
+
+.carousel-btn:hover{
+  color:white;
+  border:none;
+}
+
+.proj{
+  opacity:0.5;
+}
+
+.proj:hover {
+  opacity: 1;
 }

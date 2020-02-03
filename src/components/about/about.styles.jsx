@@ -8,6 +8,7 @@ export const AboutList = styled.div`
 `;
 
 export const About = styled.div`
-  padding: 5px 70px;
+  padding: 5px 160px;
   font-size:10px;
+  white-space: pre-line;
 `;

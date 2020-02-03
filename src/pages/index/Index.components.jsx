@@ -35,7 +35,7 @@ export default () => {
           </div>
         </div>
         <a
-          className="carousel-control-prev"
+          className="carousel-control-prev carousel-btn"
           href="#testimonial-carousel"
           role="button"
           data-slide="prev"
@@ -43,7 +43,7 @@ export default () => {
           <span className="carousel-control-prev-icon"></span>
         </a>
         <a
-          className="carousel-control-next"
+          className="carousel-control-next carousel-btn"
           href="#testimonial-carousel"
           role="button"
           data-slide="next"

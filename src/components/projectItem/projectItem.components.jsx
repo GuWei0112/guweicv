@@ -3,6 +3,7 @@ import React from "react";
 export default ({ title, url, img }) => (
   <div className="container" style={{ width: "300px", padding: "10px" }}>
     <div
+    className='proj'
       style={{
         height: "200px",
         top: "100px",

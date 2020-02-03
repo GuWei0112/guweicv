@@ -3,7 +3,6 @@ import { AboutContainer, AboutList, About } from "./about.styles";
 import EducationPage from "../../pages/education/Education.components";
 export default ({ about }) => {
   let { history, intro } = about.cvC;
-  let introA = intro.split("/");
   return (
     <AboutContainer>
       <AboutList style={{ padding: "0px 10px" }}>
@@ -31,11 +30,7 @@ export default ({ about }) => {
         <h3>自我介紹</h3>
       </AboutList>
       <About>
-        {introA.map((i, idx) => (
-          <h3 style={{ textAlign: "left" }} key={idx}>
-            {i}
-          </h3>
-        ))}
+        <h3 style={{ textAlign: "left" }}>{intro}</h3>
       </About>
     </AboutContainer>
   );
