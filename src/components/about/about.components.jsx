@@ -30,7 +30,7 @@ export default ({ about }) => {
         <h3>自我介紹</h3>
       </AboutList>
       <About>
-        <h3 style={{ textAlign: "left" }}>{intro}</h3>
+        <h3 style={{ textAlign: "left" ,padding:'0px 300px'}}>{intro}</h3>
       </About>
     </AboutContainer>
   );
