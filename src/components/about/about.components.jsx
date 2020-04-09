@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutContainer, AboutList, About } from "./about.styles";
+import { AboutContainer, AboutList, About,AboutProf } from "./about.styles";
 import EducationPage from "../../pages/education/Education.components";
 export default ({ about }) => {
   let { history, intro } = about.cvC;
@@ -29,9 +29,9 @@ export default ({ about }) => {
       <AboutList>
         <h3>自我介紹</h3>
       </AboutList>
-      <About>
-        <h3 style={{ textAlign: "left" ,padding:'0px 300px'}}>{intro}</h3>
-      </About>
+      <AboutProf>
+        <h3 style={{ textAlign: "left" }}>{intro}</h3>
+      </AboutProf>
     </AboutContainer>
   );
 };
